@@ -1,0 +1,81 @@
+div.menu{
+    width:inherit;
+    height: 70px;
+    margin-top: 10px;
+    direction:var(--direction);
+    list-style: none;
+}
+.menu>ul li{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-align: center;
+   
+}
+.menu ul li ul.dropmenu li{
+    display: block;
+}
+.menu ul li ul.dropmenu {
+    background-color:beige;
+    width: 250px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.menu ul li a{
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    transition: 300ms;
+    color: gray;
+    text-transform: capitalize;
+}
+.menu ul li:hover ul.dropmenu{
+    display: block;
+}
+.menu>ul>li>ul.dropmenu>li>a:hover{
+    color:rgb(240,81,100) ;
+   
+}
+.menu>ul>li>ul.dropmenu>li>ul{
+width: 100%;
+position: absolute;
+right: 100%;
+top: 0;
+background-color:beige;
+display: none;
+}
+.menu>ul>li>ul.dropmenu>li>ul>a{
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    transition: 300ms;
+    color: gray;
+    text-transform: capitalize;
+}
+.menu>ul>li>ul.dropmenu>li:hover>ul{
+    display: block;
+}
+.menu>ul>li>ul.dropmenu>li>ul>li>a:hover{
+    color:rgb(240,81,100) ;
+   
+}
+.menu>ul>li>a{
+    display: inline-block;
+    transition: 400ms;
+    color: gray;
+    text-transform: capitalize;
+}
+
+
+div.menu>ul>li>div.vl {
+ margin: unset;
+display:inline;
+border-left: 3px solid  #f0f0f1;;
+height: 20px;
+}

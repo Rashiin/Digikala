@@ -1,0 +1,32 @@
+div.wonder{
+    width: 1260px;
+    height: 130px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(237,239,237);
+    direction: rtl;
+}
+div.wonder>div.image-text{
+    display: inline-block;
+}
+div.wonder>div.image-text>img{
+  display: inline-block;
+  width: 80px;
+}
+div.wonder>div.image-text>h1{
+    display: inline-block;
+    vertical-align:super;
+    font-size: 30px;
+    color: rgb(57,174,0);
+}
+div.wonder>div.image2{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 120px;
+    
+}
+div.wonder>div.image2>img{
+    margin-left: 50px;
+    width: 100px;
+}

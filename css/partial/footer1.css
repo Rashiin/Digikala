@@ -1,0 +1,77 @@
+div.footer1{
+    width: 1240px;
+    display: inline-block;
+    margin-top: 20px;
+    direction: rtl;
+}
+div.footer1>img{
+    
+    display: inline-block;
+}
+div.footer1>div.image7{
+    display: inline-block;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+div.footer1>div.image7>a{
+    text-decoration: none;
+    color: black;
+    display:inline-block;
+    text-align: right;
+}
+div.footer1>div.image7>a>img{
+    display: block;
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 90px;
+}
+div.footer1>div.text3{
+    display:inline-block;
+    
+}
+div.footer1>div.text3>a{
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+div.footer1>div.text4{
+    margin-right: 90px;    
+    display: inline-block;
+}
+div.footer1>div.text4>a{
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+div.footer1>div.text5{
+    margin-right: 90px;    
+    display: inline-block;
+    position: absolute;
+    margin-top: 22px;
+}
+div.footer1>div.text5>a{
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+   
+}
+div.footer1>div.social{
+    position: relative;
+  
+    width: 100px;
+    right: 80%;
+    bottom: 100px;
+}
+div.footer1>div.social>a{
+    display: inline-block;
+    margin: 5px;
+    color: gray;
+  background-color: aqua;
+}

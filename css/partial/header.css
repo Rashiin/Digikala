@@ -1,0 +1,40 @@
+div.header{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    direction: var(--direction);
+}
+div.header>img{
+    display: inline-block;
+    padding: 20px;
+}
+div.header>div.search{ 
+position: absolute; 
+display: inline-block;
+margin-top: 21px;
+}
+div.header>div.search>input{
+    width: 520px;
+    height: 40px;
+    background-color:rgb(240,240,241);
+    border-radius: 6px;
+    border: 5px solid;
+    border-color:#f0f0f1;
+}
+div.header>div.singup{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid rgb(240,240,241);
+    padding: 7px 7px 7px;
+    margin-right: 1020px;
+    margin-top: 23px;
+    border-radius: 5px;
+}
+.singup>a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+

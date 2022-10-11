@@ -1,0 +1,32 @@
+div.logo{
+    width: 1280px;
+    display: inline-block;
+    border: 3px solid #f0f0f1;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 33px;
+    border-radius: 7px;
+  
+}
+div.logo>h1{
+    font-size: 20px;
+    text-align: center;
+}
+div.logo>div.image5{
+    padding: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+div.logo>div.images5>img{
+  
+    margin-left: 50px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.vl {
+    margin: 30px;
+  display: inline-block;
+  border-left: 3px solid #f0f0f1;
+  height: 150px;
+}
