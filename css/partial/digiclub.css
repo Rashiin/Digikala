@@ -1,0 +1,28 @@
+div.digiclub{
+    background-color: #007295;
+    width: calc(100% - 85px);
+    height: 90px;
+    border-radius: 10px;
+    direction: rtl;
+    margin-top: 20px;
+    margin-left:40px ;
+}
+div.digiclub>div.inside3{
+    display: inline-block;
+    direction: ltr;
+    position: relative;
+    right: 25%;
+    top: 12px;
+}
+div.digiclub>div.inside3>a{
+    display: inline-block;
+    background-color: white;
+    direction: ltr;
+}
+div.digiclub>div.inside3>a>img{
+    position: relative;
+    width: 222px;
+    height: 65px;
+    margin-right: 10px;
+    border-radius: 10px;
+}

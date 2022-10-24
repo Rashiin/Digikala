@@ -1,0 +1,38 @@
+div.reading{
+    width: 95%;
+    height: 400px;
+    position: relative;
+    left: calc(50% - 95% /2);
+    direction: rtl;
+    margin-top: 25px;
+}
+div.reading>a{
+display: inline-block;
+text-align: center;
+margin: 10px;
+position: relative;
+right: calc(50% - 95% /2);
+text-decoration: none;
+
+}
+div.reading>a>img{
+    display: inline-block;
+    width: 290px;
+    height: 190px;
+    border:unset;
+    border-radius: 8px;
+}
+div.reading>a>span{
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid lightgray ;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+  
+}

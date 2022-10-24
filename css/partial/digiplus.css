@@ -1,0 +1,82 @@
+*{
+    font-family: iranSans;
+}
+div.digiplus{
+    width: calc(100% - 100px);
+    height: 450px;
+    background-color: #941b80;
+    display: inline-block;
+    direction: rtl;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 45px;
+}
+div.digiplus>a{
+    
+    border: 1px solid white;
+    color: white;
+    font-family: iranSans;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+}
+div.digiplus>div.inside1,div.inside2{
+    display: inline-block;
+    background-color: white;
+    width: 35%;
+    height: 370px;
+    margin: 5px;
+    position: relative;
+    right: 3%;
+    border-radius: 10px;
+}
+div.digiplus>p{
+    display: inline;
+    color: white;
+    display: inline-block;
+}
+div.digiplus>img{
+    display: inline;
+}
+div.digiplus>div.inside1{
+    position: relative;
+    bottom: 30%;
+}
+div.digiplus>div.inside1>a{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+div.digiplus>div.inside1>a>img{
+    display: inline-block;
+    width: 120px;
+    margin: 8px;
+    position: relative;
+}
+div.digiplus>div.inside1>a>span{
+    color: #941b80;
+    position: absolute;
+    bottom: 10%;
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: right;
+}
+div.digiplus>div.inside2{
+    position: relative;
+    bottom: 35%;
+}
+div.digiplus>div.inside2>a{
+    display: inline-block;
+    position: relative;
+}
+div.digiplus>div.inside2>a>img{
+    display: inline-block;
+    width: 130px;
+    margin: 3px;
+    position: relative;
+}

@@ -1,22 +1,29 @@
 div.grouping{
-    width: 100%;
+    width:95%;
     height: 400px;
     margin-top: 30px;
     display: inline-block;
+    position: relative;
+    left: calc(50% - 98% /2);
+    text-align: center;
 }
 div.grouping>h1{
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
+    font-family: iranSans;
 }
 div.grouping>div.image4{
     display: inline-block;
     align-items: center;
 }
 div.grouping>div.image4>a{
+    font-family: iranSans;
+    color: black;
     display:inline-block;
     margin-top: 15px;
     text-decoration: none;
     text-align: center;
+    font-size: 10px;
 }
 div.grouping>div.image4>a>img{
     display: block;

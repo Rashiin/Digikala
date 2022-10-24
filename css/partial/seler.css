@@ -1,0 +1,37 @@
+div.seler{
+    width: 95%;
+    height: 300px;
+    border: 2px solid lightgray;
+    margin-top: 20px;
+    position: relative;
+    left: calc(50% - 95% /2);
+    direction: rtl;
+    border-radius: 10px;
+}
+div.seler>a{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid lightgray ;
+    margin: 12px;
+  
+}
+div.seler>a>img{
+    width: 90px;
+    display: inline-block;
+    margin: 5px;
+}
+div.seler>a>h1{ 
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+    display: inline-block;
+      
+}
+div.seler>a>span{
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
+    color: black;
+    margin-right: 20px;
+    font-size: 13px;
+}

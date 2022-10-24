@@ -1,14 +1,11 @@
-div.slider{
-    background-color: aqua;
-    margin-top: 50px;
-    width: 100%;
+div.swiper1{
+    width: 98%;
+    height: 380px;
+    direction: rtl;
+    position: relative;
+    left: calc(50% - 98% / 2);
 }
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
+div.swiper1>div.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -34,4 +31,3 @@ div.slider{
     height: 100%;
     object-fit: cover;
   }
-

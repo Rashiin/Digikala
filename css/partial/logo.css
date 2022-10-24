@@ -1,31 +1,38 @@
 div.logo{
-    width: 1280px;
+    width: 96%;
     display: inline-block;
     border: 3px solid #f0f0f1;
-    padding: 5px;
+    padding: 2px;
     margin-top: 20px;
-    margin-left: 33px;
+    position: relative;
+    left: calc(50% - 96% / 2);
     border-radius: 7px;
   
 }
 div.logo>h1{
+    font-family: iranSans;
     font-size: 20px;
     text-align: center;
 }
 div.logo>div.image5{
     padding: 10px;
-    margin-left: 50px;
+    width: 96%;
+    position: relative;
+    left: calc(50% - 96% /2);
     display: inline-block;
+    align-items: center;
+    text-align: center;
+    
 }
 div.logo>div.images5>img{
-  
-    margin-left: 50px;
+    
+    margin-left: 40px;
     margin: 20px;
     display: inline-block;
 }
 
 .vl {
-    margin: 30px;
+  margin: 25px;
   display: inline-block;
   border-left: 3px solid #f0f0f1;
   height: 150px;

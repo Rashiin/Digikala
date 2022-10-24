@@ -1,8 +1,11 @@
 div.footer1{
-    width: 1240px;
+    width: 95%;
     display: inline-block;
     margin-top: 20px;
     direction: rtl;
+    position: relative;
+    left: calc(50% - 95% /2);
+   
 }
 div.footer1>img{
     
@@ -35,7 +38,7 @@ div.footer1>div.text3>a{
     display: block;
     text-decoration: none;
     color: gray;
-    font-size: 18px;
+    font-size: 14px;
 }
 div.footer1>div.text4{
     margin-right: 90px;    
@@ -46,7 +49,7 @@ div.footer1>div.text4>a{
     display: block;
     text-decoration: none;
     color: gray;
-    font-size: 18px;
+    font-size: 14px;
 }
 div.footer1>div.text5{
     margin-right: 90px;    
@@ -59,19 +62,50 @@ div.footer1>div.text5>a{
     display: block;
     text-decoration: none;
     color: gray;
-    font-size: 18px;
+    font-size: 10px;
    
 }
 div.footer1>div.social{
     position: relative;
-  
     width: 100px;
-    right: 80%;
+    right: 65%;
     bottom: 100px;
+}
+div.footer1>div.social>ul{
+    list-style: none;
+    display:flex;
+    margin: 5px;
+    color: lightgray;
+}
+div.footer1>div.social>ul>li{
+    display: block;
+    position: relative;
+    font-size: 35px;
+    margin: 0 15px;
+   
+}
+div.footer1>div.social>ul>li>i{
+    display: inline-block;
+    margin-right: 10px;
+}
+div.footer1>div.social>input{
+    margin-top: 20px;
+    width: 270px;
+    height: 35px;
+    background-color:rgb(240,240,241);
+    border-radius: 6px;
+    border: 5px solid;
+    border-color:#f0f0f1;
+    display: inline-block;
 }
 div.footer1>div.social>a{
     display: inline-block;
-    margin: 5px;
+    padding: 6px;
     color: gray;
-  background-color: aqua;
+    text-decoration: none;
+    background-color:rgb(240,240,241);
+    margin: 5px;
+    border: 5px solid;
+    border-color:#f0f0f1;
+    border-radius: 10px;
 }

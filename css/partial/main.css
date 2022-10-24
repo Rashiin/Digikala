@@ -8,3 +8,15 @@
 @import "./logo.css";
 @import "./footer1.css";
 @import "./footer2.css";
+@import "./proposal.css";
+@import "./digiplus.css";
+@import "./digiclub.css";
+@import "./seler.css";
+@import "./discount.css";
+@import "./reading.css";
+@import "./swiper1.css";
+@font-face{
+    font-family: iranSans;
+    src: url("../fonts/A-Iranian-Sans/Iranian\ Sans.ttf");
+
+}

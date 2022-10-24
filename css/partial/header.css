@@ -3,6 +3,14 @@ div.header{
     height: 80px;
     margin-top: 10px;
     direction: var(--direction);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+}
+@font-face{
+    font-family: iranSans;
+     src: url('./fonts/Iranian \Sans.ttf');
 }
 div.header>img{
     display: inline-block;
@@ -24,7 +32,7 @@ div.header>div.search>input{
 div.header>div.singup{
     position: absolute;
     display: inline-block;
-    width: 100px;
+    width: 120px;
     border: 1px solid rgb(240,240,241);
     padding: 7px 7px 7px;
     margin-right: 1020px;
@@ -34,7 +42,7 @@ div.header>div.singup{
 .singup>a{
     color: black;
     text-decoration: none;
-    font-size: large;
+    font-family: iranSans;
 }
 
 
