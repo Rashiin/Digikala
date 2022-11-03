@@ -9,8 +9,6 @@
     --color-icon-low-emphasis: #a1a3a8;
     --color-icon-high-emphasis:#424750;
     --color-icon-rating-0-2: #f9bc00;
-}
-div.setting{
-    width: 100%;
-    height: auto;
+    --color-icon-white: #fff;
+    --color-delivery-jet:#a63489;
 }
