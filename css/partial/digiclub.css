@@ -1,11 +1,12 @@
 div.digiclub{
     background-color: #007295;
-    width: calc(100% - 85px);
+    width:96%;
     height: 90px;
     border-radius: 10px;
     direction: rtl;
     margin-top: 20px;
-    margin-left:40px ;
+    position: relative;
+    left: calc(50% - 96% / 2);
 }
 div.digiclub>div.inside3{
     display: inline-block;

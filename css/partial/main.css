@@ -1,6 +1,9 @@
 @import "./setting.css";
-@import "./header.css" ;
-@import "./menu.css";
+@import "./xl.css" ;
+@import "./lg.css";
+@import "./md.css";
+@import "./sm.css";
+@import "./xs.css";
 @import "./img.css";
 @import "./carousel.css";
 @import "./wonder.css";

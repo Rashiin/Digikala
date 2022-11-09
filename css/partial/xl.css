@@ -1,0 +1,297 @@
+@media screen and (min-width: 1200px){
+    div.header{
+        width: 100%;
+        height: 80px;
+        margin-top: 10px;
+        direction: var(--direction);
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background-color: white;
+    }
+    @font-face{
+        font-family: iranSans;
+         src: url('./fonts/Iranian \Sans.ttf');
+    }
+    div.header>img{
+        display: inline-block;
+        padding: 20px;
+    }
+    div.header>div.search{ 
+    position: absolute; 
+    display: inline-block;
+    margin-top: 21px;
+    }
+    div.header>div.search>input{
+        width: 520px;
+        height: 40px;
+        background-color:rgb(240,240,241);
+        border-radius: 6px;
+        border: 5px solid;
+        border-color:#f0f0f1;
+    }
+    div.header>div.singup{
+        position: absolute;
+        display: inline-block;
+        width: 120px;
+        border: 1px solid rgb(240,240,241);
+        padding: 7px 7px 7px;
+        left: 30px;
+        margin-top: 23px;
+        border-radius: 5px;
+    }
+    .singup>a{
+        color: black;
+        text-decoration: none;
+        font-family: iranSans;
+    }
+    
+    
+    div.menu{
+        width: inherit;
+        position: sticky;
+        top: 65px;
+        background-color: white;
+        height: inherit;
+        direction: rtl;
+        list-style: none;
+        z-index: 2;
+    }
+    div.menu>ul{
+        width: inherit;
+        list-style: none;
+        height: inherit;
+        padding: 0 10px;
+        list-style: none;
+    }
+    div.menu>ul>svg{
+        list-style: none;
+    }
+    div.menu>ul>li{
+        list-style: none;
+        width: auto;
+        height: inherit;
+        display:inline-block ;
+        position: relative;
+    }
+    
+    div.menu>ul>li>a{
+        display: block;
+        width: inherit;
+        padding: 0 10px;
+        line-height: 50px;
+        text-decoration: none;
+        font-family: iranSans;
+        text-transform: capitalize;
+        color: gray;
+        font-size: 12px;
+    
+    }
+    div.menu>ul>li>div.dropmenu1{
+        width: calc(100vw - 40px);
+        height: 465px;
+        position: absolute;
+       background-color:white;
+        display: none;
+    }
+    div.menu>ul>li:hover>div.dropmenu1{
+        display: block;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right{
+        width: 15%;
+        height: inherit;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul{
+        width: 100%;
+        height: inherit;   
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li{
+        width: inherit;
+        height: 45px;
+        margin-bottom: 5px;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>a{
+        display: block;
+        width: inherit;
+        height: inherit;
+        text-decoration: none;
+        font-family: iranSans;
+        padding-right: 20px;
+        line-height: 50px;
+        font-size: 14px;
+        color: black;
+        transition: 200ms;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>a>svg{
+        margin-left: 10px;
+        transition: 300ms;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>a:hover{
+        color:rgb(240,81,100) ;
+        background-color:rgb(240,240,241) ;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>a:hover>svg:hover{
+        color:rgb(240,81,100) ;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile{
+        width: 85%;
+        height: 465px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-right: 1px solid lightgray;
+        display: none;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li:hover>div.mobile{
+        display: block;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.first,
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.second,
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.third,
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fourth,div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fifthوdiv.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fourth1{
+        display: inline-block;
+        margin-right: 5px;
+        width: 20%;
+        height: 400px;
+        padding-top: 10px;
+    }
+    div.fourth,div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fifth{
+        display: inline-block;
+        margin-right: 5px;
+        width: 12%;
+        height: 400px;
+    }
+    div.menu>ul>li:hover{
+      border-bottom: 2px solid rgb(240,81,100) ;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.first>ul{
+        width: 100%;
+        height:inherit;
+        list-style: none;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.first>ul>li{
+        width: inherit;
+        height: 35px;
+    
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.first>ul>li>a{
+       display: block;
+        width: inherit;
+        height: inherit;
+        text-decoration: none;
+        font-family: iranSans;
+        padding-right: 10px;
+        line-height: 50px;
+        font-size: 12px;
+        color: gray;
+        transition: 300ms;
+    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.first>ul>li>a:hover{
+        color:rgb(240,81,100) ;
+    }
+    
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.second>ul{
+        width: 100%;
+        height:inherit;
+        list-style: none;
+        bottom: 50px;
+        position: relative;
+    }
+     div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.second>ul>li{
+            width: inherit;
+            height: 35px;    }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.second>ul>li>a{
+            display: block;
+             width: inherit;
+             height: inherit;
+             text-decoration: none;
+             font-family: iranSans;
+             padding-right: 10px;
+             line-height: 50px;
+             font-size: 12px;
+             color: gray;
+             transition: 300ms;
+         }
+     div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.second>ul>li>a:hover{
+    
+            color:rgb(240,81,100) ;
+         }      
+    
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.third>ul{
+            width: 100%;
+            height:inherit;
+            list-style: none;
+           
+        }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.third>ul>li{
+                width: inherit;
+                height: 35px;
+               
+            }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.third>ul>li>a{
+                display: block;
+                 width: inherit;
+                 height: inherit;
+                 text-decoration: none;
+                 font-family: iranSans;
+                 padding-right: 10px;
+                 line-height: 50px;
+                 font-size: 12px;
+                 color: gray;
+                 transition: 300ms;
+             }
+     div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.third>ul>li>a:hover{
+                 color:rgb(240,81,100) ;
+             }      
+    
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fourth>ul{
+                width: 100%;
+                height:inherit;
+                list-style: none;
+                position: relative;
+                bottom: 300px;
+              
+            }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fourth>ul>li{
+                    width: inherit;
+                    height: 35px;
+                }
+        
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fourth>ul>li>a{
+                    display: block;
+                     width: inherit;
+                     height: inherit;
+                     text-decoration: none;
+                     font-family: iranSans;
+                     padding-right: 10px;
+                     line-height: 50px;
+                     font-size: 12px;
+                     color: gray;
+                     transition: 300ms;
+                 }
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fourth>ul>li>a:hover{
+                     color:rgb(240,81,100) ;
+                 }      
+    div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fifth>ul{
+                    list-style: none;
+                    position: relative;
+                    bottom: 300px;
+                 }
+     div.menu>ul>li>div.dropmenu1>div.right>ul>li>div.mobile>div.fifth>ul>li>img{
+                       width: 190px;
+                       border-radius: 7px;
+                 }
+    
+    @font-face{
+        font-family: iranSans;
+        src: url("../fonts/A-Iranian-Sans/Iranian\ Sans.ttf");
+    }
+    div.menu>ul>li>div.vl {
+     margin: unset;
+    display:inline;
+    border-left: 3px solid  #f0f0f1;;
+    height: 20px;
+    font-family: iranSans;
+    }
+    
+}
