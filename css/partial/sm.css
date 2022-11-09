@@ -69,7 +69,7 @@
         list-style: none;
         width: auto;
         height: inherit;
-        display:block ;
+        display:inline-block ;
         position: relative;
     }
     
